@@ -31,5 +31,8 @@ module.exports = {
         "react"
     ],
     "rules": {
+        'no-restricted-imports': ['error', {
+            patterns: ['moment'],
+          }],
     }
 }
